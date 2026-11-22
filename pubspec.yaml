@@ -1,0 +1,27 @@
+name: clinic_reception
+description: Clinic reception app (offline)
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  intl: any
+  url_launcher: ^6.3.0
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.3
+  share_plus: ^9.0.0
+  file_picker: ^8.0.0
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter:
+  uses-material-design: true
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
